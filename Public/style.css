@@ -1,0 +1,77 @@
+body {
+  font: 1em sans-serif;
+  background: rgb(204,204,204);
+background: linear-gradient(90deg, #5f6368 0%, rgba(255,255,255,1) 50%);
+  width: 100%;
+  overflow: hidden;
+}
+.cv {
+  width: 90%;
+  height: auto;
+  margin: auto;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  border: 5px solid #b9aed0;
+}
+.presentation {
+  width: 98%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+}
+.presentation__name {
+  font: 3em bold;
+  width: 50%;
+  margin-right: 3rem;
+}
+.presentation__picture {
+  width: 20%;
+  height: 20%;
+  border: 3px solid #b9aed0;
+  border-radius: 20%;
+}
+.presentation__list {
+  width: 25%;
+  margin: 3em auto;
+  list-style-type: none;
+  ;
+}
+.presentation__list__items {
+  margin: .2em;
+}
+.title {
+  width: 100%;
+  margin: .2em auto;
+  text-align: center;
+  font: 2em bold;
+}
+.main {
+  display: flex;
+}
+.experience, .formation {
+  width: 50%;
+  height: 100%;
+  margin: 0 auto;
+  padding: .5em;
+  border-top: 3px solid #b9aed0;
+}
+.experience__title, .formation__title {
+  font-size: 1.5em;
+}
+.experience__subtitle, .formation__subtitle {
+  text-decoration: underline;
+}
+.formation__techno {
+  display: flex;
+}
+.formation__logo {
+  width: 10%;
+  height: auto;
+  margin: .5em;
+}
+.formation__logo-react {
+  width: 18%;
+  height: auto;
+  margin: .5em;
+}
